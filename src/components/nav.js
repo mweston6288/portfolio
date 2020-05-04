@@ -7,7 +7,7 @@ function Navigator(){
 
 return(
 <Navbar bg="dark" expand="lg" variant="dark">
-    <Navbar.Brand><Link to="/">Matthew Weston</Link></Navbar.Brand>
+    <Navbar.Brand><Link to="/portfolio">Matthew Weston</Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">

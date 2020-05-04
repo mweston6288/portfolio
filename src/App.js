@@ -16,9 +16,9 @@ function App() {
         <Nav fixed="top"/>
         <Container>
         <Switch>
-          <Route exact path="/portfolio" component={Home}/>
-          <Route exact path="/projects" component={Portfolio}/>
-          <Route exact path="/contact" component={Contacts}/>
+          <Route path="/portfolio" exact component={Home}/>
+          <Route path="/projects" exact component={Portfolio}/>
+          <Route path="/contact" exact component={Contacts}/>
         </Switch>
         </Container>
       </div>

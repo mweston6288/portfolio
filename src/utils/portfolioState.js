@@ -22,15 +22,15 @@ const projects = [
     },
     {
         name: "Password generator",
-        url:"submodules/passwordGen/password.html"
+        url:"https://mweston6288.github.io/passwordGen/"
     },
     {
         name: "Day planner",
-        url:"Schedule/Develop/index.html"
+        url:"https://mweston6288.github.io/Schedule/"
     },
     {
         name: "Coding Quiz",
-        url:"codingQuiz/index.html"
+        url:"https://mweston6288.github.io/codingQuiz/"
     },
     {
         name: "Weather Report",

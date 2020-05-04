@@ -11,7 +11,7 @@ import Contacts from "./pages/contact";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/portfolio">
       <div>
         <Nav fixed="top"/>
         <Container>

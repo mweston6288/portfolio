@@ -5,7 +5,6 @@ import Card from "react-bootstrap/Card"
 
 const portfolio = ()=>{
     const projects = randProjects;
-    console.log(projects)
     return(
         <div>
             <Header page="projects" />

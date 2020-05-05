@@ -2,7 +2,7 @@ import React from 'react';
 import "./css/style.css"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/nav"
 import Home from "./pages/home"
 import Portfolio from "./pages/portfolio"
@@ -11,18 +11,18 @@ import Contacts from "./pages/contact";
 
 function App() {
   return (
-    <HashRouter basename="/portfolio">
+    <Router>
       <div>
         <Nav fixed="top"/>
         <Container>
         <Switch>
-          <Route path="/projects" exact component={Portfolio}/>
-          <Route path="/contact" exact component={Contacts}/>
-          <Route path="/" exact component={Home} />
+          <Route exact path="/projects" component={Portfolio}/>
+          <Route exact path="/contact" component={Contacts}/>
+          <Route exact path="/" component={Home} />
         </Switch>
         </Container>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 

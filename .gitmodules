@@ -1,3 +1,0 @@
-[submodule "src/submodules/passwordGen"]
-	path = src/submodules/passwordGen
-	url = https://github.com/mweston6288/passwordGen.git

@@ -13,7 +13,7 @@ const portfolio = ()=>{
             {projects.map(project=>(
                 <Card className="text-center">
 
-                    <a href={project.url}>{project.name}</a>
+                    <a href={project.url} className="projectName">{project.name}</a>
                 </Card>
             ))}
             <p className="text-center">Additional projects can be found at <a href="https://github.com/mweston6288">my Github</a></p>

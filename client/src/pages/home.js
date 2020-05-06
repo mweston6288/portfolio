@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import image from '../images/IMG_0053.JPG'
 import Header from "../components/Header"
 
-
 const Home= ()=>{
     return(
         <div>
@@ -12,7 +11,9 @@ const Home= ()=>{
             <Row>
                 <Col>
                     <img id="image" src={image} alt="Matthew Weston"/>
-                    <p>My name is Matthew Weston. I'm currently studying Computer Science at the University of Central Florida.
+                </Col>
+                <Col>
+                    <div><p>My name is Matthew Weston. I'm currently studying Computer Science at the University of Central Florida.
                     My interests in the field primarily revolve around security, bug-testing, and performance. However I'm
                     also taking some time to learn web design as well. I'm proficient in C, knowledgeable in Java and am
                     starting to learn HTML, CSS, and JavaScript.</p>
@@ -21,9 +22,12 @@ const Home= ()=>{
                     great to add to it or make it better.</p>
                     <p>At the moment, I work as a Supplemental Instructor at UCF. I'm part of a school-led program intended to
                     help other students excel in their classes. As an SI leader, I host review sessions, teach good study
-                    practices, and help fellow students understand course material including good coding practices</p>
+                    practices, and help fellow students understand course material including good coding practices</p></div>
+                </Col>
+            </Row>
+            <Row>
                     <ul>Known languages and skills
-                    <li>C</li>
+                        <li>C</li>
                         <li>Java</li>
                         <li>Javascript</li>
                         <li>Node.js</li>
@@ -31,8 +35,9 @@ const Home= ()=>{
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>SQL</li>
+                        <li>Mongo</li>
+                        <li>React</li>
                     </ul>
-                </Col>
             </Row>
         </div>
     )

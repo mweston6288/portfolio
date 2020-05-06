@@ -8,6 +8,7 @@ import Home from "./pages/home"
 import Portfolio from "./pages/portfolio"
 import Container from "react-bootstrap/Container";
 import Contacts from "./pages/contact";
+import Resume from "./pages/resume"
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route exact path="/projects" component={Portfolio}/>
           <Route exact path="/contact" component={Contacts}/>
           <Route exact path="/" component={Home} />
+          <Route exact path="/resume" component={Resume} />
+
         </Switch>
         </Container>
       </div>

@@ -12,6 +12,7 @@ return(
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
             <Nav.Link><Link to="/projects">Projects</Link></Nav.Link>
+            <Nav.Link><Link to="/resume">Resume</Link></Nav.Link>
             <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
         </Nav>
     </Navbar.Collapse>

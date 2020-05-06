@@ -34,7 +34,7 @@ const projects = [
     },
     {
         name: "Weather Report",
-        url:"WeatherReport/index.html"
+        url:"https://mweston6288.github.io/WeatherReport/"
     },
     {
         name: "Note Taker",
@@ -42,7 +42,7 @@ const projects = [
     },
     {
         name: "Food Explorer",
-        url: "FoodExplorer/index.html"
+        url: "https://mweston6288.github.io/FoodExplorer/"
     },
 ]
 

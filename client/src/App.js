@@ -9,6 +9,7 @@ import Portfolio from "./pages/portfolio"
 import Container from "react-bootstrap/Container";
 import Contacts from "./pages/contact";
 import Resume from "./pages/resume"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
         </Switch>
         </Container>
+        <Footer fixed="bottom"/>
       </div>
     </Router>
   );

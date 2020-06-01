@@ -44,6 +44,10 @@ const projects = [
         name: "Food Explorer",
         url: "https://mweston6288.github.io/FoodExplorer/"
     },
+    {
+        name: "Monster Hunter World Equipment Recommender",
+        url: "https://mhw-gear-recommender.herokuapp.com/"
+    }
 ]
 
 function makeProjectArray(indexArray){
